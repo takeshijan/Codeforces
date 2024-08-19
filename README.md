@@ -1,3 +1,1 @@
-# Codeforces
-
-``` https://codeforces.com/profile/mukhammadaliyev ```
+# [Codeforces](https://codeforces.com/profile/mukhammadaliyev)
