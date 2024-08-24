@@ -11,7 +11,10 @@ int main(){
     }
     short j=1,l = s.length()-1;
     for(short i=0;i<=l;i++){
-        if(!(s[i]==t[l-i])) j=0;
+        if((s[i]!=t[l-i])){
+            cout<<"NO"<<endl;
+            return 0;
+        }
     }
-    cout<<(j==1 ? "YES":"NO");
+    cout<<"YES"<<endl;
 }
