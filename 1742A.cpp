@@ -7,9 +7,9 @@ int main(){
     cin>>n;
     while (n--) {
         cin>>a>>b>>c;
-        short ab = a+b == c;
-        short ac = a+c == b;
-        short bc = b+c == a;
+        bool ab = a+b == c;
+        bool ac = a+c == b;
+        bool bc = b+c == a;
         cout<<((ab || ac || bc) ? "YES" : "NO")<<endl;        
     }
     return 0;
